@@ -140,8 +140,8 @@ C:\Users\Emmanoel\Desktop\SiteCurriculo\SistemaListaTarefas\SistemaListaTarefas\
 C:\Users\Emmanoel\Desktop\SiteCurriculo\SistemaListaTarefas\SistemaListaTarefas\obj\Debug\net8.0\SistemaL.9BABD3CD.Up2Date
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\appsettings.json
-C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.staticwebassets.endpoints.json
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.staticwebassets.runtime.json
+C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.staticwebassets.endpoints.json
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.exe
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.deps.json
 C:\Users\Emmanoel\Desktop\SistemaListaTarefas\SistemaListaTarefas\bin\Debug\net8.0\SistemaListaTarefas.runtimeconfig.json
