@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\migrations\\20260222210254_criartabelatarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\migrations\\20260222210254_criartabelatarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260222210254_CriarTabelaTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Migrations\\20260222210254_CriarTabelaTarefas.cs",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Migrations\\20260222210254_CriarTabelaTarefas.cs",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Migrations\\20260222210254_CriarTabelaTarefas.cs",
+              "RelativeToolTip": "SistemaListaTarefas\\Migrations\\20260222210254_CriarTabelaTarefas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:32:31.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SistemaListaTarefas\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:32:30.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SistemaListaTarefas\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:32:29.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefasController.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Controllers\\TarefasController.cs",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Controllers\\TarefasController.cs",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Controllers\\TarefasController.cs",
+              "RelativeToolTip": "SistemaListaTarefas\\Controllers\\TarefasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:32:21.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "RelativeToolTip": "SistemaListaTarefas\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-02-23T16:32:20.275Z",
+              "EditorCaption": " - Icon [32x32, 32 bits, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "SistemaListaTarefas\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-23T16:32:18.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SistemaListaTarefas\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-23T16:32:14.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Program.cs",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Program.cs",
+              "RelativeToolTip": "SistemaListaTarefas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:25:09.763Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

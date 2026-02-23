@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emmanoel\\Desktop\\SiteCurriculo\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj": {}
+    "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emmanoel\\Desktop\\SiteCurriculo\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj": {
+    "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanoel\\Desktop\\SiteCurriculo\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj",
+        "projectUniqueName": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj",
         "projectName": "SistemaListaTarefas",
-        "projectPath": "C:\\Users\\Emmanoel\\Desktop\\SiteCurriculo\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj",
+        "projectPath": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\SistemaListaTarefas.csproj",
         "packagesPath": "C:\\Users\\Emmanoel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanoel\\Desktop\\SiteCurriculo\\SistemaListaTarefas\\SistemaListaTarefas\\obj\\",
+        "outputPath": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

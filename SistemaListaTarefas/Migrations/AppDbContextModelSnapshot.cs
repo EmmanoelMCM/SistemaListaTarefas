@@ -47,7 +47,7 @@ namespace SistemaListaTarefas.Migrations
 
                     b.ToTable("Tarefas");
                 });
-#pragma warning restore 612, 618
+
         }
     }
 }
