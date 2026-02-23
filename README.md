@@ -1,9 +1,9 @@
 📋 Sistema de Lista de Tarefas
+
 Um sistema web completo para o cadastro e gerenciamento de tarefas, desenvolvido com foco no funcionamento correto das regras de negócio, persistência de dados e usabilidade avançada (como reordenação via Drag-and-Drop). Este projeto foi desenvolvido como requisito acadêmico para avaliação de desenvolvimento de sistemas.
 
-🔗 Acessar a Aplicação Online (Link para teste do sistema publicado)
-
 🚀 Funcionalidades Implementadas
+
 O sistema atende rigorosamente a todas as especificações requisitadas:
 
 Listagem de Tarefas: Página principal exibindo todas as tarefas cadastradas, ordenadas de forma personalizada e com formatação no padrão brasileiro (Datas em DD/MM/AAAA e Moeda em R$).
@@ -27,6 +27,7 @@ Exclusão com Confirmação: O sistema exige uma confirmação do usuário (Sim/
 Reordenação Interativa (Drag-and-Drop): O usuário pode alterar a ordem de apresentação das tarefas livremente utilizando o mouse para arrastar e soltar as linhas da tabela.
 
 🛠️ Tecnologias Utilizadas
+
 Back-end: C# com ASP.NET Core MVC
 
 Banco de Dados: SQL Server (via Entity Framework Core / Code-First)
