@@ -1,7 +1,3 @@
-Aqui está uma sugestão completa e profissional para o seu README.md. Eu estruturei o texto para destacar exatamente as regras de negócio que o seu professor exigiu na especificação, além de já incluir as tecnologias que usamos ao longo do desenvolvimento (como o Drag-and-Drop e o Popup Modal).
-
-Você pode copiar o texto abaixo e colar no arquivo README.md do seu repositório no GitHub:
-
 📋 Sistema de Lista de Tarefas
 Um sistema web completo para o cadastro e gerenciamento de tarefas, desenvolvido com foco no funcionamento correto das regras de negócio, persistência de dados e usabilidade avançada (como reordenação via Drag-and-Drop). Este projeto foi desenvolvido como requisito acadêmico para avaliação de desenvolvimento de sistemas.
 
