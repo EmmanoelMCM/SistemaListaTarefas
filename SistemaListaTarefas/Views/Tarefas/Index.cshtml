@@ -9,37 +9,41 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            @* Coluna para o controle de arrastar *@
-            <th style="width: 50px;"></th>
-            <th>Nome</th>
-            <th>Custo (R$)</th>
-            <th>Data Limite</th>
-            <th>Ações</th>
+            <th style="width: 5%;"></th>
+
+            <th style="width: 10%;">ID</th>
+
+            <th style="width: 45%; text-align: left;">Nome</th>
+
+            <th style="width: 15%;">Custo (R$)</th>
+            <th style="width: 15%;">Data Limite</th>
+
+            <th style="width: 10%;">Ações</th>
         </tr>
     </thead>
-    @* Adicionado ID para o SortableJS identificar o corpo da tabela *@
+   
     <tbody id="sortable-list">
         @foreach (var item in Model)
         {
-            @* Atributo data-id adicionado para identificar a tarefa no arrasto  *@
-            @* Regra: Custo >= 1000 fica com fundo amarelo [cite: 22] *@
+         
+          
             <tr data-id="@item.Id" style="@(item.Custo >= 1000 ? "background-color: yellow;" : "")">
-                @* Ícone para arrastar [cite: 48, 49] *@
+                
                 <td class="handle" style="cursor: grab; text-align: center;">☰</td>
+
+                <td>@item.Id</td>
 
                 <td>@item.Nome</td>
 
-                @* Formato brasileiro: R$ [cite: 12, 16] *@
                 <td>@item.Custo.ToString("C2", new System.Globalization.CultureInfo("pt-BR"))</td>
 
-                @* Formato brasileiro: DD/MM/AAAA [cite: 13, 16] *@
                 <td>@item.DataLimite.ToString("dd/MM/yyyy")</td>
 
                 <td>
-                    @* Editar em Popup [cite: 38] *@
+
                     <button type="button" onclick="openEditModal(@item.Id)" class="btn btn-primary btn-sm">Editar</button>
 
-                    @* Confirmação de exclusão Sim/Não [cite: 28] *@
+                   
                     <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;" onsubmit="return confirm('Deseja realmente excluir esta tarefa?');">
                         <button type="submit" class="btn btn-danger btn-sm">Excluir</button>
                     </form>
@@ -51,16 +55,16 @@
     <tfoot>
         <tr>
             <td colspan="2"><strong>Total:</strong></td>
-            @* Somatório dos custos no rodapé [cite: 25] *@
+            
             <td colspan="3"><strong>@Model.Sum(t => t.Custo).ToString("C2", new System.Globalization.CultureInfo("pt-BR"))</strong></td>
         </tr>
     </tfoot>
 </table>
 
-@* Botão para Incluir ao final [cite: 24] *@
+
 <a asp-action="Create" class="btn btn-success">Incluir Nova Tarefa</a>
 
-@* Estrutura do Modal para Edição [cite: 38] *@
+
 <div class="modal fade" id="editModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content" id="modalContent">
@@ -69,44 +73,85 @@
 </div>
 
 @section Scripts {
-    @* Importação do SortableJS para o Drag-and-Drop *@
+   
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
 
     <script>
-        // Função para abrir o Popup de Edição
+        
         function openEditModal(id) {
             $.get("/Tarefas/Edit/" + id, function (data) {
+                
                 $("#modalContent").html(data);
+                
                 $("#editModal").modal("show");
+
+                
+                setTimeout(() => {
+                    var nomeInput = document.getElementById('Nome');
+                    if(nomeInput) nomeInput.focus();
+                }, 500);
             });
         }
 
-        // Configuração do Drag-and-Drop [cite: 48, 49]
-        var el = document.getElementById('sortable-list');
-        var sortable = Sortable.create(el, {
-            handle: '.handle', // Arrastar apenas pelo ícone ☰
-            animation: 150,
-            onEnd: function (evt) {
-                var order = [];
-                // Captura a nova ordem dos IDs baseada na posição das linhas
-                $("#sortable-list tr").each(function() {
-                    order.push($(this).data("id"));
-                });
+        
+        $(document).on('submit', '#modalContent form', function (e) {
+            e.preventDefault(); 
 
-                // Envia a nova ordem para o servidor via AJAX [cite: 45, 46]
-                $.ajax({
-                    url: '/Tarefas/Reordenar',
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(order),
-                    success: function() {
-                        console.log("Ordem atualizada!");
-                    },
-                    error: function() {
-                        alert("Erro ao salvar a nova ordem.");
+            var form = $(this);
+
+            $.ajax({
+                url: form.attr('action'),
+                type: 'POST',
+                data: form.serialize(), 
+                success: function (result) {
+                    
+                    if (result.includes('<!DOCTYPE html>') || result.includes('navbar-brand')) {
+                        window.location.reload(); 
+                    } else {
+                        
+                        $("#modalContent").html(result);
+
+                        
+                        setTimeout(() => {
+                            var nomeInput = document.getElementById('Nome');
+                            if(nomeInput) nomeInput.focus();
+                        }, 100);
                     }
-                });
-            }
+                },
+                error: function () {
+                    alert("Erro ao comunicar com o servidor.");
+                }
+            });
         });
+
+        
+        var el = document.getElementById('sortable-list');
+        if (el) { 
+            var sortable = Sortable.create(el, {
+                handle: '.handle',
+                animation: 150,
+                onEnd: function (evt) {
+                    var order = [];
+
+                    $("#sortable-list tr").each(function() {
+                        order.push($(this).data("id"));
+                    });
+
+                    $.ajax({
+                        url: '/Tarefas/Reordenar',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify(order),
+                        success: function() {
+                            console.log("Ordem atualizada no banco!");
+                            
+                        },
+                        error: function() {
+                            alert("Erro ao salvar a nova ordem.");
+                        }
+                    });
+                }
+            });
+        }
     </script>
 }

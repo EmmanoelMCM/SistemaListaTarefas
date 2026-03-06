@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|c:\\users\\emmanoel\\desktop\\sistemalistatarefas\\sistemalistatarefas\\views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F763586-25AF-4075-9A5E-10BC3DEF33FB}|SistemaListaTarefas\\SistemaListaTarefas.csproj|solutionrelative:sistemalistatarefas\\views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaListaTarefas\\appsettings.json",
-              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\appsettings.json",
-              "RelativeToolTip": "SistemaListaTarefas\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-23T17:03:41.563Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Views\\Tarefas\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaListaTarefas\\Views\\Tarefas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emmanoel\\Desktop\\SistemaListaTarefas\\SistemaListaTarefas\\Views\\Tarefas\\Index.cshtml",
+              "RelativeToolTip": "SistemaListaTarefas\\Views\\Tarefas\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAH4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:08:05.058Z",
               "EditorCaption": ""
             }
           ]

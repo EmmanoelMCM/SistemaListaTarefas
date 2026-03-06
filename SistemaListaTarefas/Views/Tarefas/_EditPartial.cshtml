@@ -24,7 +24,7 @@
 
         <div class="form-group mb-3">
             <label asp-for="DataLimite" class="control-label"></label>
-            <input asp-for="DataLimite" class="form-control" type="date" />
+            <input asp-for="DataLimite" class="form-control" type="date" asp-format="{0:yyyy-MM-dd}" />
             <span asp-validation-for="DataLimite" class="text-danger"></span>
         </div>
     </div>
